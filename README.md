@@ -34,10 +34,10 @@ A modern, responsive web application for planning magical Disney vacations. This
 
 ## Tech Stack
 
-- **Frontend:** HTML, CSS, TypeScript, React (or a similar framework)
-- **Testing:** Jest, React Testing Library, Cypress (for end-to-end tests)
-- **Deployment:** Netlify/Vercel for frontend; optional Node.js backend (Heroku/AWS)
-- **APIs & Integrations:** EmailJS for email services, ThemeParks API, YouTube API
+- **Frontend:** HTML, CSS, TypeScript, React
+- **Testing:** Playwright
+- **Deployment:** 
+- **APIs & Integrations:** 
 
 ## Project Structure
 
