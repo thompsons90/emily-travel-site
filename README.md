@@ -1,6 +1,6 @@
 # Emily’s 101 Travels Agent Site
 
-A modern, responsive web application for planning magical Disney vacations. This application empowers users to explore travel packages, submit booking forms, and interact with travel agents—all built using Test Driven Development (TDD) to ensure robust, maintainable code. Future enhancements include personalized agent dashboards, advanced API integrations, and automated itinerary generation.
+A modern, responsive web application for planning magical Disney vacations. This application empowers users to explore travel packages, submit booking forms, and interact with travel agents. Future enhancements include personalized agent dashboards, advanced API integrations, and automated itinerary generation.
 
 ## Table of Contents
 
