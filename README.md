@@ -1,54 +1,43 @@
-# React + TypeScript + Vite
+# Emily’s 101 Travels Agent Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for planning magical Disney vacations. This application empowers users to explore travel packages, submit booking forms, and interact with travel agents. Future enhancements include personalized agent dashboards, advanced API integrations, and automated itinerary generation.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Development](#development)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### MVP
+- **Landing Page:** Engaging, Disney-themed landing page.
+- **Gallery:** Image gallery with low-resolution placeholders and lazy-loading of high-resolution images.
+- **Testimonials & About:** Display customer testimonials and agency information.
+- **Booking Form:** User-friendly form for trip inquiries (contact details, vacation dates, budget, preferences).
+- **Contact Page:** Enables users to contact the travel agency with automated email responses.
+- **Responsive Design:** Fully optimized for both desktop and mobile browsers.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Post-MVP Enhancements
+- Individual agent dashboards and profile pages.
+- Integration with external APIs (YouTube, ThemeParks, Weather).
+- Automated PDF itinerary generation with Disney branding.
+- Enhanced reporting and analytics.
+- User authentication via Auth0.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Frontend:** HTML, CSS, TypeScript, React
+- **Testing:** Playwright
+- **Deployment:** 
+- **APIs & Integrations:** 
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Project Structure
+
